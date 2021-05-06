@@ -15,6 +15,13 @@ public class Sample2Test
 		int a=10;
 		int b=5;
 		int c= a+b;
-		System.out.println("Sample 2 math success. Sum is : "+c);
+		System.out.println("Sample 2 math success. Product is : "+c);
+	}
+		public void sampleDiv()
+	{
+		int a=10;
+		int b=5;
+		int c= a/b;
+		System.out.println("Sample 2 Div success. Result is : "+c);
 	}
 }
