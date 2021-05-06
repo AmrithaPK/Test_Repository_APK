@@ -1,0 +1,21 @@
+package myFirstMaven;
+
+import org.testng.annotations.*;
+
+public class Sample1Test 
+{
+	@Test
+	public void codePrint()
+	{
+		System.out.println("Sample 1 code print success");
+	}
+	@Test
+	public void sampleMath()
+	{
+		int a=10;
+		int b=5;
+		int c= a-b;
+		System.out.println("Sample 1 math success. Difference is : "+c);
+	}
+
+}
